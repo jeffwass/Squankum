@@ -8,10 +8,16 @@ Welcome to Squankum
 Currently Squankum lets you :
 
 * Visualize a single qubit
-    * Observe the representation on a Bloch Sphere
+    * Observe graphically the representation on a Bloch Sphere
     * Observe the relationship between the Bloch angular representation and spinor notation
 * Perform single-qubit operations
 * Observe representation of two coupled qubits (not fully implemented)
+
+Screenshot
+--------
+Hadamard operation on a single qubit
+
+![Hadamard operation screenshot](https://github.com/jeffwass/Squankum/raw/master/Screenshot.png)
 
 History of Squankum
 --------
