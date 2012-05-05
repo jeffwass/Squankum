@@ -15,13 +15,23 @@ Currently Squankum lets you :
 
 Screenshot
 --------
-Hadamard operation on a single qubit
+Hadamard operation on a single qubit.  
 
 ![Hadamard operation screenshot](https://github.com/jeffwass/Squankum/raw/master/Screenshot.png)
 
+* The qubit's state is represented as the yellow vector on the Bloch Sphere.
+* It is expressed mathematically through the two angles theta/phi, or as the 2-element complex spinor below.
+    * Relative probabilities for finding the qubit in state |0> and |1> are shown to the right of the spinor
+* Sliders for theta / phi on the input qubit can be dragged, updating the input/output qubits in real time
+    * A slider for an overall _phase_ is supplied.  This doesn't affect the vector, but scales the spinor by 
+      exp^(_i phase_).  The qubit's state is invariant to this overall phase.
+* Other single-qubit operators can be chosen from the drop-down menu
+* The viewing angle can be adjusted through the alpha/beta/gamma sliders, which are implemented as [Eulerian angle](http://en.wikipedia.org/wiki/Euler_angles) rotations
+
+
 History of Squankum
 --------
-In 2003-2004 I developed an interactive Quantum Computation applet, as part of a technology fellowship with the [Johns Hopkins Center for Educational Resources](http://www.cer.jhu.edu). There was a fair amount of interest in this project, so in 2007 I renamed it as Squankum, and released the source code as Free Open Source Software under the GNU Public License.
+In 2003-2004 I developed an interactive Quantum Computation applet, as part of my Technology Fellowship from the [Johns Hopkins Center for Educational Resources](http://www.cer.jhu.edu). There was a fair amount of interest in this project, so in 2007 I renamed it as Squankum, and released the source code as Free Open Source Software under the GNU Public License.
 
 Why did you choose the name Squankum?
 --------
